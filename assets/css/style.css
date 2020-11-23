@@ -193,7 +193,7 @@ Go Top Style
   cursor: pointer;
   top: 0;
   right: 15px;
-  background-color:#143BE0;
+  background-color:#012c92;
   z-index: 4;
   width: 40px;
   text-align: center;
@@ -2239,7 +2239,7 @@ FAQ Area Style
 Footer Top Area Style
 ================================*/
 .footer-top-area {
-  background-color: #1d225d;
+  background-color: #143BE0;
 }
 
 .single-widget {

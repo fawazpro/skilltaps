@@ -46,59 +46,46 @@
 	<!-- End Preloader Area -->
 
 	<!-- Start Navbar Area -->
-	<div class="peru-nav">
-		<div class="navbar-area fixed-top">
-			<!-- Menu For Mobile Device -->
-			<div class="mobile-nav">
-				<a href="index.html" class="logo">
-					<img src="assets\img\favicon.png" alt="Skilltaps Logo">SkillTaps
+
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a href="index.html" class="text-uppercase" style="font-size: 2rem; color: #143BE0;">
+			<img src="assets/img/favicon.png" class="img-fluid" alt="Skilltaps Logo">Skilltaps
+		</a>
+		<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="collapsibleNavId">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="index.html" class="nav-link active">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="about.html" class="nav-link">About Us</a>
+				</li>
+				<li class="nav-item">
+					<a href="index.html#services" data-toggle="collapse" data-target=".navbar-collapse.show" class="scroll nav-link">Services</a>
+				</li>
+				<li class="nav-item">
+					<a href="index.html#pricing" data-toggle="collapse" data-target=".navbar-collapse.show" class="scroll nav-link">Pricing</a>
+				</li>
+				<li class="nav-item">
+					<a href="index.html#team" data-toggle="collapse" data-target=".navbar-collapse.show" class="scroll nav-link">Our Team</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://app.skilltaps.com/market" class="btn text-dark nav-link">Market</a>
+				</li>
+			</ul>
+			<div class="ml-3">
+				<a class="default-btn" href="https://app.skilltaps.com/login">
+					Login
 				</a>
-			</div>
-
-			<!-- Menu For Desktop Device -->
-			<div class="main-nav peru-nav-style-2">
-				<nav class="navbar navbar-expand-md navbar-light">
-					<div class="container">
-						<a class="navbar-brand" href="index.html">
-							<img src="assets\img\favicon.png" alt="Skilltaps Logo">SkillTaps
-						</a>
-
-						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent nav">
-							<ul class="navbar-nav ml-auto">
-								<li class="nav-item">
-									<a href="index.html" class="nav-link active">Home</a>
-								</li>
-								<li class="nav-item">
-									<a href="#about" class="scroll nav-link">About Us</a>
-								</li>
-								<li class="nav-item">
-									<a href="#services" class="scroll nav-link">Services</a>
-								</li>
-								<li class="nav-item">
-									<a href="#pricing" class="scroll nav-link">Pricing</a>
-								</li>
-								<li class="nav-item">
-									<a href="#team" class="scroll nav-link">Our Team</a>
-								</li>
-								<li class="nav-item">
-									<a href="#faq" class="scroll nav-link">FAQ</a>
-								</li>
-							</ul>
-							<div class="others-option">
-								<a href="tel:+800-987-65-43" class="contact-number">
-									<i class="fa fa-phone"></i>
-									+800-987-65-43
-								</a>
-								<a class="default-btn" href="https://app.skilltaps.com/register">
-									Get Started
-								</a>
-							</div>
-						</div>
-					</div>
-				</nav>
+				<!-- <a class="d-none d-lg-block btn btn-primary" href="https://app.skilltaps.com/register">
+					Register
+				</a> -->
 			</div>
 		</div>
-	</div>
+	</nav>
 	<!-- End Navbar Area -->
 
 	<!-- Start Page Title Area -->
@@ -117,8 +104,8 @@
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="about-title">
-						<span>The Skilltaps Community</span>
-						<h2>We take our members by the hand</h2>
+						<span>About Us</span>
+						<h2>The Skilltaps Community</h2>
 						<p>At Skilltaps community, we take our members by the hand and lead them through the rigorous
 							training process of acquiring the skills and tools necessary for starting, building and
 							growing businesses, investing, sales and marketing.</p>
@@ -420,25 +407,21 @@
 				<div class="col-lg-4 col-sm-6 col-md-6">
 					<div class="single-widget">
 						<a href="index.html">
-							<img src="assets/img/logo.png" alt="Skillhub-Logo">
+							<img src="assets/img/favicons/Skilltaps_dark.png" class="img-fluid" alt="Skilltaps-Logo">
 						</a>
 						<ul class="address">
 							<li>
-								<i class="fa fa-map-marker"></i>
-								21, Ajegunle Street Sagamu, Ogun State
-							</li>
-							<li>
 								<i class="fa fa-phone"></i>
-								<a href="tel:+2348108097322">+2348108097322</a>
+								<a href="tel:+2348062784601">+234 806 278 4601</a>
 							</li>
 							<li>
 								<i class="fa fa-envelope"></i>
-								<a href="mailto:fawazpro27@gmail.com">fawazpro27@gmail.com</a>
+								<a href="mailto:info@skilltaps.com">info@skilltaps.com</a>
 							</li>
 						</ul>
 					</div>
 				</div>
-				<div class="offset-3 col-lg-2 col-sm-6 col-md-6">
+				<div class="offset-lg-3 col-lg-2 col-sm-6 col-md-6">
 					<div class="single-widget">
 						<h3>Links</h3>
 						<ul class="links">
@@ -446,10 +429,10 @@
 								<a href="index.html">Home</a>
 							</li>
 							<li>
-								<a href="#service">Services</a>
+								<a href="about.html">About Us</a>
 							</li>
 							<li>
-								<a href="#about">About Us</a>
+								<a href="index.html#services">Services</a>
 							</li>
 						</ul>
 					</div>

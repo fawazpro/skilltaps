@@ -159,3 +159,61 @@ Presentation Techniques: dances, traditional dances, boat rowing, comedy, songs,
 
 Strategies: free seminars – schools, churches; tea parties & this evening with friends; free public lectures & enlightenment; advert – word of mouth, social media, posters, flyers, radio/ television; talent hunt. Emphasis on who we are and why we are here
 
+
+
+
+	<!-- Start Navbar Area -->
+	<div class="peru-nav">
+		<div class="navbar-area fixed-top">
+			<!-- Menu For Mobile Device -->
+			<div class="mobile-nav">
+				<a href="index.html" class="logo">
+					<img src="assets\img\favicon.png" alt="Skilltaps Logo">SkillTaps
+				</a>
+			</div>
+
+			<!-- Menu For Desktop Device -->
+			<div class="main-nav peru-nav-style-2">
+				<nav class="navbar navbar-expand-md navbar-light">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img src="assets\img\favicon.png" alt="Skilltaps Logo">SkillTaps
+						</a>
+
+						<div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent nav">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a href="index.html" class="nav-link active">Home</a>
+								</li>
+								<li class="nav-item">
+									<a href="#about" class="scroll nav-link">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a href="#services" class="scroll nav-link">Services</a>
+								</li>
+								<li class="nav-item">
+									<a href="#pricing" class="scroll nav-link">Pricing</a>
+								</li>
+								<li class="nav-item">
+									<a href="#team" class="scroll nav-link">Our Team</a>
+								</li>
+								<li class="nav-item">
+									<a href="#faq" class="scroll nav-link">FAQ</a>
+								</li>
+							</ul>
+							<div class="others-option">
+								<a href="tel:+800-987-65-43" class="contact-number">
+									<i class="fa fa-phone"></i>
+									+800-987-65-43
+								</a>
+								<a class="default-btn" href="https://app.skilltaps.com/register">
+									Get Started
+								</a>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<!-- End Navbar Area -->
